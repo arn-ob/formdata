@@ -1,0 +1,19 @@
+{
+  "name": "formdata",
+  "version": "0.0.0",
+  "homepage": "https://github.com/tsaqib/formdata",
+  "authors": [
+    "Tanzim Saqib <tanzimsaqib@live.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
