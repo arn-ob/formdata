@@ -26,4 +26,4 @@ require('./framework/routes')(app);
 
 module.exports = app;
 
-
+;
