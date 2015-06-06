@@ -24,6 +24,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 require('./framework/routes')(app);
 
-module.exports = app;
+/*app.locals({ navLinks : [
+    { label: 'Home', key: 'home', path: '' },
+    { label: 'Sign up', key: 'signup', path: '/signup' },
+    { label: 'Login', key: 'login', path: '/login' }
+]});*/
 
-;
+module.exports = app;

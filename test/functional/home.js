@@ -1,3 +1,7 @@
+/// <reference path="../../typings/mocha/mocha.d.ts"/>
+/// <reference path="../../typings/node/node.d.ts"/>
+process.env.NODE_ENV = 'test';
+
 var request = require('request'),
 	s = require('string'),
 	cheerio = require('cheerio'),

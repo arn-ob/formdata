@@ -1,13 +1,13 @@
 module.exports = function (app) {
   app.get('/', function (req, res, next) {
-    res.render('index');
+    res.render('index', { active: 'home'});
   });
 
   app.get('/signup', function (req, res, next) {
-    res.render('signup');
+    res.render('signup', { active: 'signup'});
   });
   app.get('/login', function (req, res, next) {
-    res.render('login');
+    res.render('login', { active: 'login'});
   });  
   
   // catch 404 and forward to error handler
